@@ -4,8 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
         <title>Online Examination Portal </title>
-        <link  rel="stylesheet" href="Registration.css"/>
-        <script type="text/javascript" src="Registration.js">
+        <link  rel="stylesheet" href="css/Registration.css"/>
+        <script type="text/javascript" src="js/Registration.js">
             
             </script>
         </head>

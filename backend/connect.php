@@ -1,6 +1,6 @@
 <?php
 $user='root';
-$pass='@deeb.1491';
+$pass='';
 $db='exam_portal';
 $link= mysqli_connect('localhost', $user, $pass, $db);
 
