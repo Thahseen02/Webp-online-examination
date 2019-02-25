@@ -12,7 +12,7 @@
     <body>
         <div id="login-container">
             <div id="login-heading">User Login</div>
-            <form action="Instruction.php" method="post">
+            <form action="backend/login_script.php"  method="post">
                 <table cellspacing="2px">
                     <tr>
                         <td>
@@ -33,7 +33,7 @@
                     </tr>
                 </table>    
                 <button id="login" class="blue-button" type="submit" >Log In</button>
-               <input type="button" id="signup" class="blue-button"  value="Sign Up" onclick="window.location.href='http://localhost/Examination%20portal/Registration.html'">
+               <input type="button" id="signup" class="blue-button"  value="Sign Up" onclick="window.location.href='http://localhost/exam/Registration.php'">
                 
             </form>
         </div>
