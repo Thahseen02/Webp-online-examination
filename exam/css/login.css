@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #68CBE0;
+    text-align: center;
+}
+
+#login-heading {
+    color: #68CBE0;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#login-container {
+    position: relative;
+    top: 100px;
+    font-family: cursive;
+    margin-top: 50px;
+    background-color: white;
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+}
+label
+{
+    float:left;
+}
+
+.detail{
+    padding:5px;
+    margin:7px;
+    
+}
+.login-details {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #68CBE0;
+    height: 33px;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgba(128, 128, 128, 0.45);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgba(128, 128, 128, 0.45);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgba(128, 128, 128, 0.45);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgba(128, 128, 128, 0.45);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    rgba(128, 128, 128, 0.45);
+}
+
+.blue-button {
+    margin-top: 20px;
+    height: 35px;
+    width: 75px;
+    font-size: medium;
+    border: none;
+    border-radius: 4px;
+    background-color: #68CBE0;
+    color: white;
+    padding: 5px;
+    margin:7px;
+}
+
+
+
+
+
+
+
+
