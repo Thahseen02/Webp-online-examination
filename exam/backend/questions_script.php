@@ -1,6 +1,10 @@
 <?php
 require 'connect.php';
-
+if(!isset($_SESSION['id']))
+ { 
+                header("location: ../exam/Index.php"); 
+                
+ } 
 $query="SELECT * FROM questions";
 $result= mysqli_query($link, $query);
 if(mysqli_num_rows($result)>0)
