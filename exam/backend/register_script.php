@@ -19,7 +19,7 @@ if(!isset($_SESSION['id']))
         if($result){
             $row=mysqli_fetch_array($result);
             $_SESSION['id']=$row['id'];
-            header("location: ../Instruction.html"); 
+            header("location: ../Instruction.php"); 
         }
         else{
             $error=mysqli_error($link);

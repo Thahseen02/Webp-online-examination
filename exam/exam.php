@@ -105,7 +105,10 @@ button:hover{
   width: 90%; /* Four links of equal widths */
   text-align: center;
 }
-        </style>            
+        </style>
+        <script>
+            const myQuestions = [<?php require 'backend/questions_script.php';?>];
+        </script>
     </head>
    <body onload="setCountDown();">
 <div id="contain">
@@ -134,15 +137,15 @@ function setCountDown ()
   seconds--;
   if (seconds < 0){
       minutes--;
-      seconds = 59
+      seconds = 59;
   }
   if (minutes < 0){
       hours--;
-      minutes = 59
+      minutes = 59;
   }
   if (hours < 0){
       days--;
-      hours = 23
+      hours = 23;
   }
   document.getElementById("remain").innerHTML = minutes+" minutes, "+seconds+" seconds";
   SD=window.setTimeout( "setCountDown()", 1000 );
@@ -155,7 +158,7 @@ function setCountDown ()
   
 
     (function() { 
-    const myQuestions = [<?php require 'backend/questions_script.php';?>];
+    
 
   function buildQuiz() {
     // we'll need a place to store the HTML output
